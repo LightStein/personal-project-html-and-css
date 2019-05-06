@@ -1,0 +1,224 @@
+/*
+COLORS:
+section 1:
+    green: #1ABC9C
+    black: #222533
+section 2 
+    grey: #1A1C27
+    green: #03FBCA
+section 3:
+    Header: #2C3E50 
+    text gray: #A1B1BC
+    button text: #2C3E50
+    button border: #2C3E50
+section 4:
+    purple: #4E459A
+    blue: #63D8FF
+    red: #E36968
+section 5:
+    Header: #2C3E50
+    gray: #A1B1BC
+    button text: #2C3E50
+    button border: #2C3E50
+section 6:
+    background: #222533
+    in-ellipsesymbol: #2C3E50
+    line blue: #21C2F8
+    ellipse-border: opacity 50%
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #A1B1BC;
+    font-size: 14px;
+}
+
+.header{
+    height: 100px;
+    background-color: #222533;
+    background-size: cover;
+    position: relative;
+}
+.menu-bar{
+    position: relative;
+    height: 100%;
+    /* width: 100%; */
+    left: 150px;
+    transform: translateY(-25%);
+}
+.menu-bar ul{
+    margin-left: 50px;
+    float: left;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(25%, 25%);
+    /* display: inline-block; */
+}
+
+.logo{
+    position: absolute;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+.logo img, h3{
+    display: inline-block;
+}
+.logo h3{
+    font-size: 35.69px;
+    color: #fff;
+    font-family: sans-serif;
+    transform: translateY(-25%)
+}
+
+.fa-search, .fa-shopping-basket{
+    font-size: 20px;
+}
+
+ul li{
+    line-height: 100px;
+    list-style: none;
+    float: left;
+}
+ul li a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 15.86;
+    padding: 0 20px;
+}
+ul li a:hover{
+    color: #1ABC9C;
+}
+
+/* section 1 */
+
+.section-1{
+    height: 980px;
+    width: 100%;
+    position: relative;
+    background-color: #404149;
+    opacity: 70%;
+}
+
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.heading-primary{
+    color: #FFF;
+}
+.heading-primary-main{
+    font-family: "Lato Black";
+    display: block;
+    text-transform: uppercase;
+    font-size: 90px;
+}
+.heading-primary-sub{
+    font-family: "Lato";
+    display: block;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 200;
+    transform: translateX(90px)
+}
+
+.section-1 .fa-arrow-left, .section-1 .fa-arrow-right{
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-family: "FontAwesome";
+    position: absolute;
+}
+.section-1 .fa-arrow-right{
+    right: 0px;
+}
+
+.section-1 .fa-arrow-left{
+    left: 0px;
+}
+
+
+
+.section-1 .fa-arrow-left:hover, .section-1 .fa-arrow-right:hover{
+    background-color: #03FBCA;
+    color: #1A1C27;
+}
+
+
+/* section 2 */
+
+.section-2{
+    position: relative;
+    height: 651px;
+}
+.introduction{
+    display: flex;
+    flex-direction: row;
+    height: 558.38px;
+    width: 1557px;
+    position: relative;
+    left: 10%;
+    top: 89px;
+
+}
+.introduction img, .introduction h1{
+    display: block;
+}
+.introduction img{
+    height: 483px;
+}
+.introduction h1{
+    margin-bottom: 12px;
+    color: #2C3E50;
+    text-transform: uppercase;
+    font-family: "Lato Black";
+    font-weight: 100;
+    font-size: 30px;
+}
+.introduction p{
+    color: #A1B1BC;
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 24px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
+.info{
+    width: 569.33px;
+}
+.introduction a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2C3E50;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 36px;
+    border: solid #2C3E50 2px;
+    border-radius: 5px;
+    word-spacing: 2px;
+    padding: 5px 18px;
+}
+
+.introduction a:hover{
+    color: #fff;
+    background-color: #2C3E50;
+}
+
+
+/* section 3 */
