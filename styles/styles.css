@@ -191,7 +191,7 @@ ul li a:hover{
 
 .section-2{
     position: relative;
-    height: 651px;
+    height: 520px;
 }
 .introduction{
     display: flex;
@@ -199,33 +199,39 @@ ul li a:hover{
     height: 558.38px;
     width: 1557px;
     position: relative;
-    left: 10%;
-    top: 89px;
+    left: 19%;
+    top: 73px;
 
 }
 .introduction img, .introduction h1{
     display: block;
 }
 .introduction img{
-    height: 483px;
+    height: 386px;
 }
 .introduction h1{
     margin-bottom: 12px;
     color: #2C3E50;
     text-transform: uppercase;
-    font-family: "Lato Black";
-    font-weight: 100;
-    font-size: 30px;
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 25px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
 }
 .introduction p{
+    letter-spacing: 0.3px;
+    width: 445px;
+    word-spacing: 2px;
     color: #A1B1BC;
     font-family: "Lato";
-    font-size: 14px;
-    line-height: 24px;
-    word-spacing: 2px;
-    margin-bottom: 20px;
+    font-size: 11px;
+    line-height: 19px;
+    word-spacing: 1.9px;
+    margin-bottom: 21px;
 }
 .introduction .info{
+    margin-left: 17px;
     width: 569.33px;
 }
 .introduction a{
@@ -233,12 +239,13 @@ ul li a:hover{
     text-decoration: none;
     color: #2C3E50;
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 12px;
     line-height: 36px;
     border: solid #2C3E50 2px;
     border-radius: 5px;
     word-spacing: 2px;
-    padding: 5px 18px;
+    padding: 7px 30px;
+    letter-spacing: 0.4px;
 }
 
 .introduction a:hover{
