@@ -261,7 +261,7 @@ ul li a:hover{
     display: flex;
     flex-direction: row;
     position: relative;
-    height: 360px;
+    height: 289px;
 }
 
 
@@ -276,31 +276,39 @@ ul li a:hover{
 }
 .section-3 p{
     position: relative;
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'Lato';
     line-height: 24px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: -0.4px;
 }
 
 .section-3 h4{
     margin-bottom: 8px;
     position: relative;
     margin-top: 59.3px;
-    font-size: 15px;
-    font-family: 'Lato Black';
-    line-height: 19px;
-    letter-spacing: 100;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 1.5px;
     text-transform: uppercase;
 }
 .section-3 a{
+    font-family: 'Lato';
+    font-size: 13px;
     position: relative;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     border: 2px solid #fff;
     border-radius: 5px;
-    padding: 14.2px 24.6px;
+    padding: 11px 15px;
 }
+.feature{
+    margin: 0px, 30px;
+}
+
 .feature-3 a:hover{
     color: #E36968;
     background-color: #fff;
@@ -316,7 +324,8 @@ ul li a:hover{
 .section-3 div div{
     height: fit-content;
     display: block;
-    padding: 5% 10%;
+    padding-left: 15%;
+    padding-right: 10%;
 }
 
 /* section-4 */
